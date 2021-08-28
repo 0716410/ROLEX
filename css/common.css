@@ -1,0 +1,42 @@
+
+.wrap {
+    max-width: 1920;
+    margin: 0 auto;
+}
+
+header, section, footer {
+    width: 100%;
+    float: left;
+}
+
+.in_header, .container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+@media screen and (max-width:500px) {
+    .in_header, .container, .main_txt {
+        width: 95%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding-top: 60px;
+        overflow-x: hidden;
+    }
+}
+
+
+
+.subtit {
+    font-size: 30px;
+    color: #666;
+}
+
+
+
